@@ -3,4 +3,5 @@ arch: amd64
 group: edge
 virt: lxd
 script:
-  - which gcc
+  - cd /opt
+  - ls
